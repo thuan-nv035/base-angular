@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstName": "asdc",
+      "lastName": "asdc",
+      "email": "asdcasdc",
+      "dob": "2023-05-10T17:00:00.000Z",
+      "gender": "male",
+      "education": "Diploma",
+      "company": "dasd",
+      "experience": 1221,
+      "package": 33,
+      "id": 1
+    }
+  ]
+}
