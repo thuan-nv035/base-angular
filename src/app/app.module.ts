@@ -13,12 +13,18 @@ import { HomeComponent } from './components/home/home.component';
 import { SearchComponent } from './components/search/search.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { FormComponent } from './components/form/form.component';
+import { FormsModule, ReactiveFormsModule}   from '@angular/forms';
+import {MatTableModule} from '@angular/material/table';
+import { FournotfourComponent } from './components/fournotfour/fournotfour.component';
 @NgModule({
   declarations: [
     AppComponent,
     ToolBarComponent,
     HomeComponent,
-    SearchComponent
+    SearchComponent,
+    FormComponent,
+    FournotfourComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,7 +34,10 @@ import { MatInputModule } from '@angular/material/input';
     MatIconModule,
     MatButtonModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatTableModule
   ],
   providers: [
     {
